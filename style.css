@@ -20,9 +20,9 @@ body {
 }
 
 .flyer {
-  width: 60%;
+  width: 80%;
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #mc_embed_shell {
@@ -36,7 +36,7 @@ body {
   color: white;
   clear: left;
   font: 18px Helvetica, Arial, sans-serif;
-  width: 60%;
+  width: 80%;
 }
 
 footer {
