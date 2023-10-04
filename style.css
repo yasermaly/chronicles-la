@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #53697a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+.logo-container {
+  width: 500px;
+}
+
+.logo {
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.title-container {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+.title {
+  width: 80%;
+}
+
+.flyer-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.flyer {
+  width: 1200px;
+  margin-bottom: 50px;
+}
+
+signup-container {
+  margin: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#mc_embed_shell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mc_embed_signup {
+  background: #53697a;
+  color: white;
+  clear: left;
+  font: 18px Helvetica, Arial, sans-serif;
+  width: 1000px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #1f2937;
+}
+
+.copyright {
+  color: white;
+  margin: 0;
+  padding: 40px 0;
+}
