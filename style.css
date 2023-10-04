@@ -13,26 +13,6 @@ body {
   display: flex;
 }
 
-.logo-container {
-  width: 500px;
-}
-
-.logo {
-  max-width: 80%;
-  margin-right: auto;
-  margin-left: 0;
-}
-
-.title-container {
-  width: 100%;
-  margin: auto;
-  padding: auto;
-}
-
-.title {
-  width: 80%;
-}
-
 .flyer-container {
   display: flex;
   justify-content: center;
@@ -40,15 +20,9 @@ body {
 }
 
 .flyer {
-  width: 1200px;
+  width: 60%;
   margin-bottom: 50px;
-}
-
-signup-container {
-  margin: auto;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  margin-top: 100px;
 }
 
 #mc_embed_shell {
@@ -62,7 +36,7 @@ signup-container {
   color: white;
   clear: left;
   font: 18px Helvetica, Arial, sans-serif;
-  width: 1000px;
+  width: 60%;
 }
 
 footer {
