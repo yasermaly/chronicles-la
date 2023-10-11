@@ -25,6 +25,12 @@ body {
   margin-top: 50px;
 }
 
+.ticket-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #mc_embed_shell {
   display: flex;
   justify-content: center;
