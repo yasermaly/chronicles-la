@@ -16,16 +16,16 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <!-- <div class="main-container">
-      <div class="logo-container">
-        <img class="logo" src="./images/the_traveler.png" alt="the traveler" />
-      </div>
-      <div class="title-container">
-        <img class="title" src="./images/title.png" alt="" />
-      </div>
-    </div> -->
     <div class="flyer-container">
       <img class="flyer" src="./images/full_lineup.png" alt="" />
+      <button type="button" onclick="openLinkInNewTab();">
+        Purchase Tickets
+      </button>
+      <script>
+        let openLinkInNewTab = () => {
+          window.open('https://ra.co/events/1787526', '_blank');
+        };
+      </script>
     </div>
 
     <div id="mc_embed_shell">
